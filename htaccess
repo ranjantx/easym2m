@@ -1,0 +1,35 @@
+
+RewriteOptions inherit
+# Proxy rules for BaseKit site: &quot;easym2m.in&quot;
+DirectoryIndex index.php
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^easym2m.in$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.easym2m.in$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.+)$ http://easym2min.hostgator.co.in/$1 [P,L]
+# END proxy rules for &quot;easym2m.in&quot;
+
+ #Use PHP 5.5
+# Use PHP55 as default
+#AddHandler application/x-httpd-php55 .php 
+<IfModule mod_suphp.c>
+    #suPHP_ConfigPath /opt/php55/lib
+</IfModule>
+
+# Google Analytics Integration - Added by cPanel.
+<IfModule mod_substitute.c>
+AddOutputFilterByType SUBSTITUTE text/html
+Substitute "s|(<script src='/google_analytics_auto.js'></script>)?</head>|<script src='/google_analytics_auto.js'></script></head>|i"
+</IfModule>
+# END Google Analytics IntegrationOptions +Indexes
+IndexOptions +FancyIndexing
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

@@ -1,0 +1,659 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+
+<meta charset="UTF-8">
+<meta name="description" content="EasyM2M Technologies- ThirdEye™ Solution">
+<meta name="keywords" content="Remote tracking, remote monitoring, cloud based monitoring, smartwatch, smart watch, smart watch monitoring, rugged, industrial, enterprise, heart bit rate (HBR) monitoring, blood pressure (BP) monitoring, man fall down alert, Emergency call, SoS call, Women Safety, Employee safety, Employee surveillance, personal surveillance, human surveillance, women surveillance, safe driving, child safety & surveillance,
+Underground Mining, surface mining, coal mine, gold mine, iron mine, Oil & Gas, Manufacturing, steel, power, Aluminium, Transportation, logistics, Police, Ambulance drivers, Women drivers, cab drivers, taxi drivers, safety, security, surveillance, ThirdEye, Trusted Companion">
+<meta name="author" content="EasyM2M Technologies">
+
+
+
+<title>EasyM2M Technologies Private Ltd, India. ThirdEye Solution, iWristPhone</title>
+<link rel="icon" href="icon.jpg" type="image/png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+
+<!--script type="text/javascript" src="js/jquery-1.11.0.min.js"></script-->
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+<link type="text/css" rel="stylesheet" href="css/login.css" />
+ 
+ 
+ 
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+ 
+</head>
+<body>
+
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+  
+  <div class="logo"><a href="#"><img src="img/icon.jpg" width="90px" height="60px" alt="logo" /></a></div>
+  
+    <div class="header_box">
+	
+      <!--<div class="logo"><a href="#"><img src="img/Thirdeye-logo.png" alt="logo" /></a></div>-->
+	  <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+			  <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
+			  <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
+			  
+			  <li><a href="#Portfolio" class="scroll-link">Product</a></li>
+			  <li><a href="#service" class="scroll-link">Services</a></li>
+			  <li><a href="#clients" class="scroll-link">Association</a></li>
+			  <li><a href="#team" class="scroll-link">Team</a></li>
+			  <li><a href="#contact" class="scroll-link">Contact</a></li>
+			  <li><!--a href="#modal" class="popupContainer" id="modal_trigger">Login</a-->
+			  <a id="modal_trigger" href="#modal" class="scroll-link">Login</a>
+			  
+
+			  </li><!-- end of login-->
+			</ul>
+      </div>
+	 </nav>
+    </div>
+  </div>
+  
+  
+  
+  	<div id="modal" class="popupContainer" style="display:none;">
+		<header class="popupHeader">
+			<span class="header_title">ThirdEye&trade; Login</span>
+			<span class="modal_close"><i class="fa fa-times"></i></span>
+		</header>
+		
+		<section class="popupBody">
+			<!-- Social Login -->
+			<!--div class="social_login">
+				<div class="">
+					<a href="#" class="social_box fb">
+						<span class="icon"><i class="fa fa-facebook"></i></span>
+						<span class="icon_title">Connect with Facebook</span>
+						
+					</a>
+
+					<a href="#" class="social_box google">
+						<span class="icon"><i class="fa fa-google-plus"></i></span>
+						<span class="icon_title">Connect with Google</span>
+					</a>
+				</div>
+
+				<div class="centeredText">
+					<span>Or use your Email address</span>
+				</div>
+
+				<div class="action_btns">
+					<div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+					<div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+				</div>
+			</div-->
+
+			<!-- Username & Password Login form -->
+			<div class="user_login">
+				<form name="Login" method="post" action="http://52.74.116.156:8765/easym2m/thirdeye" target="_blank" >
+					<label>Account ID</label>
+					<input type="text" name="account" id="account" placeholder="Enter Account ID" size='24' maxlength='32'/>
+					<br />
+					<label>Username</label>
+					<input type="text"  name="user" id="user" placeholder="Enter Your userid" size='24' maxlength='32'/>
+					<br />
+					<label>Password</label>
+					<input type="password" name="password" id="password" placeholder="Enter Your Password" size='24' maxlength='32'/>
+					<br />
+
+					<div class="checkbox">
+						<input id="remember" type="checkbox" />
+						<label for="remember">Remember me on this computer</label>
+					</div>
+
+					<div class="action_btns">
+						<div class="one_half"><!--a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a--></div>
+						<div class="one_half last"><!--a href="#" class="btn btn_red">Login</a-->
+						<input type="submit" name='submit' value='Login'> 
+						</div>
+					</div>
+				</form>
+
+				<a href="mailto:info@easym2m.in?subject=forgot password" class="forgot_password">Forgot password?</a>
+			</div>
+
+			<!-- Register Form -->
+			<div class="user_register">
+				<form>
+					<label>Full Name</label>
+					<input type="text" />
+					<br />
+
+					<label>Email Address</label>
+					<input type="email" />
+					<br />
+
+					<label>Password</label>
+					<input type="password" />
+					<br />
+
+					<div class="checkbox">
+						<input id="send_updates" type="checkbox" />
+						<label for="send_updates">Send me occasional email updates</label>
+					</div>
+
+					<div class="action_btns">
+						<div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+						<div class="one_half last"><a href="#" class="btn btn_red">Register</a></div>
+					</div>
+				</form>
+			</div>
+		</section>
+	</div>
+
+<script type="text/javascript">
+	$("#modal_trigger").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+
+	$(function(){
+		// Calling Login Form
+		$("#login_form").click(function(){
+			$(".social_login").hide();
+			$(".user_login").show();
+			return false;
+		});
+
+		// Calling Register Form
+		$("#register_form").click(function(){
+			$(".social_login").hide();
+			$(".user_register").show();
+			$(".header_title").text('Register');
+			return false;
+		});
+
+		// Going back to Social Forms
+		$(".back_btn").click(function(){
+			$(".user_login").hide();
+			$(".user_register").hide();
+			$(".social_login").show();
+			$(".header_title").text('Login');
+			return false;
+		});
+
+	})
+</script>
+
+  
+</header>
+<!--Header_section--> 
+
+<!--Hero_Section-->
+<section id="hero_section" class="top_cont_outer">
+  <div class="hero_wrapper">
+    <div class="container">
+      <div class="hero_section">
+        <div class="row">
+          <div class="col-lg-5 col-sm-7">
+            <div class="top_left_cont zoomIn wow animated"> 
+              <h2>ThirdEye™ on the wrist.</h2>
+              <p>ThirdEye™ solution includes Powerful, Stylish and Modern iWristPhone™ companion.</p>
+              <a href="#service" class="read_more2">Read more</a> </div>
+          </div>
+          <div class="col-lg-7 col-sm-5">
+			<img src="img/thirdeye-main.png" class="zoomIn wow animated" alt="" />
+		  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Hero_Section--> 
+
+<section id="aboutUs"><!--Aboutus-->
+<div class="inner_wrapper">
+  <div class="container">
+    <h2>About Us</h2>
+    <div class="inner_section">
+	<div class="row">
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right">
+		<img src="img/About.png" class="img-circle delay-03s animated wow zoomIn" alt="">
+		<br><br>
+		<h3> Our Target customers</h3><br>
+		<ul style="font-weight:bold;"><li>Coal Mines enterprises</li>
+			<li>Hospital & Ambulance services</li>
+		</ul>
+		</div>
+      	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+        	<div class=" delay-01s animated fadeInDown wow animated">
+			<p>As technology executives well know, running software, hardware and technology services is no cake walk. It requires a long term vision and adaptability. We know what it takes to get the job done and thats what we do best. Get the job done.</p> <br/>
+			<p>Our company is rapidly expanding and we are fully equipped to take your business, be it large or small, and take it right on up there to the next level. As many levels past your current business model as you really want to take it.</p> <br/>
+			<p>We have some wonderful customer connect, we are understanding their operation and life threatening issues, and taken the vow to come out with a IoT Solution.
+			</p><br>
+			<h3>ThirdEye™ Solution for safety, security and surveillance of employee using iWristPhone geo-tracking, health monitoring device on cloud</h3><br/> 
+            <p>
+			<br> 
+			For customers, if you think you need presence tracking(GPS/WiFi), remote monitoring (machine parameter, health vital parameter) then just contact us so that we can set something up for you..</p> <br/>
+<p>We have been working with many customers, vendors, OEMs. People that are market leaders in the industry, companies that have hit growth speed bumps, brand new players onto the market and even private equity portfolio companies. So don't think that your business is too large or too small for you to contact us. We are eager to help any one and everyone.</p>
+</div>
+<div class="work_bottom"> <span>Want to know more..  About our mentors, advisors   <a href="#clients" >Click here</a> or </span> <a href="#contact" class="contact_btn">Contact Us</a> </div>       
+	   </div>
+      	
+      </div>
+	  
+      
+    </div>
+  </div> 
+  </div>
+</section>
+<!--Aboutus--> 
+
+
+
+
+
+
+<!-- Portfolio -->
+<section id="Portfolio" class="content"> 
+  
+  <!-- Container -->
+  <div class="container portfolio_title"> 
+    
+    <!-- Title -->
+    <div class="section-title">
+      <h2>ThirdEye™ Solution</h2>
+    </div>
+    <!--/Title --> 
+    
+  </div>
+  <!-- Container -->
+  
+  <div class="portfolio-top"></div>
+  
+  <!-- Portfolio Filters -->
+  <div class="portfolio"> 
+    
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+        <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>All</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".design">
+          <h5>Architecture</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".prototype">
+          <h5>Hardware</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".android">
+          <h5>Device App</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".Cloud">
+          <h5>Mobile App</h5>
+          </a></li>
+        <!--li><a class="" href="#" data-filter=".web">
+          <h5>Web App</h5>
+          </a></li-->
+      </ul>
+    </div>
+    <!--/Portfolio Filters --> 
+    
+    <!-- Portfolio Wrapper -->
+    <div class="isotope fadeInLeft animated wow" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper"> 
+      
+      
+      <!-- Portfolio Item-->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio_img"> <img src="img/architecture.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">ThirdEye Solution Architecture</h4>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  prototype isotope-item">
+        <div class="portfolio_img"> <img src="img/pic 1.png"  alt="Portfolio 1"> </div>        
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">iWristPhone™</h4>
+          </div>
+        </div>
+        </div>
+      <!--/Portfolio Item --> 
+    
+      <!-- Portfolio Item -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item">
+        <div class="portfolio_img"> <img src="img/pic2.png" alt="Portfolio 1"> </div>       
+        <div class="item_overlay">
+          <div class="item_info"> 
+				<h4 class="project_name">Device App</h4>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Portfolio Item --> 
+      
+	  
+	<!-- Portfolio Item -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  Cloud isotope-item">
+        <div class="portfolio_img"> <img src="img/ThirdEye-Mobile-App.png" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Mobile App and Web</h4>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item--> 
+      
+      <!-- Portfolio Item-->
+      <!--div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
+        <div class="portfolio_img"> <img src="img/pic3.png" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Cloud and Web</h4>
+          </div>
+        </div>
+      </div-->
+      <!-- Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <!--<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio_img"> <img src="img/pic5.png" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Managment</h4>
+          </div>
+        </div>
+      </div>-->
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <!--<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
+        <div class="portfolio_img"> <img src="img/pic3.png" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Cloud</h4>
+          </div>
+        </div>
+      </div>-->
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item  -->
+      <!--<div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>       
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Nexus Phone</h4>
+          </div>
+        </div>
+       </div>-->
+      <!--/Portfolio Item --> 
+      
+    </div>
+    <!--/Portfolio Wrapper --> 
+    
+  </div>
+  <!--/Portfolio Filters -->
+  
+  <div class="portfolio_btm"></div>
+  
+  
+  <div id="project_container">
+    <div class="clear"></div>
+    <div id="project_data"></div>
+  </div>
+ 
+  
+</section>
+<!--/Portfolio --> 
+
+<!--Service-->
+<section  id="service">
+  <div class="container">
+    <h2>Services</h2>
+    <div class="service_wrapper">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="service_block">
+		  <img src="img/hostgator795_service_4.jpg" alt="logo"></a>
+            <!--<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-android"></i></span> </div>-->
+            <h3 class="animated fadeInUp wow">Cloud based Solution</h3>
+            <p class="animated fadeInDown wow">Cloud Networking is the next step in computer networking and we live on the cutting edge of technology. So if you are ready to get your office up and running on the cloud just contact us and we will set you up.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft">			
+          <div class="service_block">
+		  <img src="img/hostgator795_service_3.jpg" alt="logo"></a>
+            <!--<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-apple"></i></span> </div>-->
+            <h3 class="animated fadeInUp wow">M2M Device Integration</h3>
+            <p class="animated fadeInDown wow">If you already have a network solution set up and you need to do some expansion to help improve your network we can set you up with that as well. We can install more ram, disk space or what ever you may need.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft">
+          <div class="service_block">
+		  <img src="img/hostgator795_service_1.jpg" alt="logo"></a>
+            <!--<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-html5"></i></span> </div>-->
+            <h3 class="animated fadeInUp wow">M2M Application Software Development</h3>
+            <p class="animated fadeInDown wow">Social Networking is what your business needs. If you have a business online the most important thing you need to do is make sure that everyone has access to view your website and check out what you have to offer.</p>
+          </div>
+        </div>
+      </div>
+	   <!--<div class="row borderTop">-->
+       <!-- <div class="col-lg-4 mrgTop">-->
+          <!--<div class="service_block">-->
+		  <!--<img src="img/hostgator795_service_5.jpg" alt="logo"></a>-->
+            <!--<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-dropbox"></i></span> </div>-->
+            <!--<h3 class="animated fadeInUp wow">Industrial Automation</h3>-->
+            <!--<p class="animated fadeInDown wow">Perhaps you have some broken equipment that needs to be repaired? Guess what we know how to do, fix almost everything! Contact us today and we can hook you up.</p>-->
+          </div> 
+        </div>
+		
+        <!--<div class="col-lg-4 borderLeft mrgTop">
+          <div class="service_block">
+		  <img src="img/hostgator795_service_2.jpg" alt="logo"></a>
+            <!--<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-slack"></i></span> </div>-->
+            <!--<h3 class="animated fadeInUp wow">Safety & Security</h3>-->
+            <!--<p class="animated fadeInDown wow">You need the latest and greatest in internet security to make sure that you have no leaks in your firewall and you are able to keep all those pesky hackers out of your network. Contact us and we can check out your system to see if it needs any type of updating on the security end.</p>-->
+          </div>
+        </div>
+        <!--<div class="col-lg-4 borderLeft mrgTop">
+          <div class="service_block">
+		  <img src="img/business-plan-writer.jpg" alt="logo"></a>
+            <!--<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-users"></i></span> </div>-->
+            <!--<h3 class="animated fadeInUp wow">M2M Business Planning</h3>-->
+            <!--<p class="animated fadeInDown wow">If you are starting up a new business we are there to help you plan everything out from the start. If you start right, you will not have to go back and make costly updates in the future. So make sure you start off on the right foot.</p>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Service-->
+
+
+
+
+<section class="page_section" id="clients"><!--page_section-->
+  <h2>Association</h2>
+<!--page_section-->
+<div class="client_logos"><!--client_logos-->
+  <div class="container">
+    <!--<ul class="fadeInRight animated wow" >-->
+	<ul>
+      <li><a href="javascript:void(0)"><img src="img/10K.png" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="img/iiitb-logo_400x400.jpg" alt="IIIT-Bangalore"></a></li>
+      <li><a href="javascript:void(0)"><img src="img/IESA.jpg" alt="IESA-Bangalore"></a></li>
+      <li><a href="javascript:void(0)"><img src="img/TIE-B.png" alt="TiE-Bangalore"></a></li>
+    </ul>
+  </div>
+</div>
+</section>
+<!--client_logos-->
+
+<section class="page_section team" id="team"><!--main-section team-start-->
+  <div class="container">
+    <h2>Team</h2>
+    <h6>We're a team of enthusiastic professionals.</h6>
+    <div class="team_section clearfix">
+      <div class="team_area">
+        <div class="team_box wow fadeInDown delay-03s">
+          <!--<div class="team_box_shadow"><a href="javascript:void(0)"></a></div>-->
+          <img src="img/priyaranjan-photo-round.jpg" alt="">
+          <!--<ul>
+            <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
+            <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
+            <li><a href="javascript:void(0)" class="fa fa-pinterest"></a></li>
+            <li><a href="javascript:void(0)" class="fa fa-google-plus"></a></li>
+			<li><a href="javascript:void(0)" class="fa fa-linkedin"></a></li>
+
+          </ul>-->
+        </div>
+        <h3 class="wow fadeInDown delay-03s">Mr. PriyaRanjan Kumar</h3>
+        <span class="wow fadeInDown delay-03s">Founder and CTO</span>
+        <p class="wow fadeInDown delay-03s">18+ years in Software Industry<br/>
+IoT, M2M, NMS, EMS expert<br/>
+Adept in Cloud, Mobile App<br/>
+EGMP from IIM Lucknow<br/>
+B.E (Computer Science) from Bangalore University, India
+</p>
+      </div>
+      <div class="team_area">
+        <div class="team_box  wow fadeInDown delay-06s">
+          <!--<div class="team_box_shadow"><a href="javascript:void(0)"></a></div>-->
+          <img src="img/Sunil-circle.png" alt="">
+          <!--<ul>
+            <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
+            <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
+            <li><a href="javascript:void(0)" class="fa fa-pinterest"></a></li>
+            <li><a href="javascript:void(0)" class="fa fa-google-plus"></a></li>
+          </ul>-->
+        </div>
+        <h3 class="wow fadeInDown delay-06s">Sunil Kumar</h3>
+        <span class="wow fadeInDown delay-06s">Co-Founder & Director (Software)</span>
+        <p class="wow fadeInDown delay-06s">15 years experience in software development<br/>
+Worked for ITI and Lucent Bangalore<br/>
+B.E (Electronics & Comm) from BIT, Sindri, Jharkhand, India<br/>
+</p>
+      </div>
+      <div class="team_area">
+        <div class="team_box wow fadeInDown delay-09s">
+          <!--<div class="team_box_shadow"><a href="javascript:void(0)"></a></div>-->
+          <img src="img/Sanjay Kumar_photo-circle.jpg" alt="">
+          <!--<ul>
+            <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
+            <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
+            <li><a href="javascript:void(0)" class="fa fa-pinterest"></a></li>
+            <li><a href="javascript:void(0)" class="fa fa-google-plus"></a></li>
+          </ul>-->
+        </div>
+        <h3 class="wow fadeInDown delay-09s">Sanjay Kumar</h3>
+        <span class="wow fadeInDown delay-09s">QA Consultant</span>
+        <p class="wow fadeInDown delay-09s">10+ year in Software Testing<br>
+		Expert in Manual and Automated Testing<br>
+		Adept in Web, Standalone, Cloud Testing tools<br>
+		B.E (E&C), VTU, Karnataka, India
+		</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/Team-->
+
+
+<!--Footer-->
+<footer class="footer_wrapper" id="contact">
+  <div class="container">
+    <section class="page_section contact" id="contact">
+      <div class="contact_section">
+        <h2>Contact Us</h2>
+        <div class="row">
+          <div class="col-lg-4 detail wow fadeInLeft">
+            <h4>EasyM2M Technologies Private Limited</h4>
+                                <p>#306, Startup Innovation center, IIIT-B, Electronic City Phase-1, 
+									Bangalore, India</p>
+          </div>
+          <div class="col-lg-4 detail wow fadeInLeft">
+           <h4>call us</h4>  <p>+91 973 996 3333</p>
+          </div>
+          <div class="col-lg-4 detail wow fadeInLeft">
+          <h4>Email us for enquiry</h4> <p>INFO@EASYM2M.IN</p>
+          <h4>Email us for Sales</h4> <p>Rajesh.Patel@EASYM2M.IN</p>
+          <h4>Email us for Jobs</h4> <p>jobs@EASYM2M.IN</p>
+          </div>
+        </div>
+		<div class="row">
+        <div class="col-lg-4 wow fadeInLeft">	
+		<ul class="social_links">
+            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><a href="https://twitter.com/easym2m"><i class="fa fa-twitter"></i></a></a></li>
+            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><a href="https://www.facebook.com/EasyM2M"><i class="fa fa-facebook"></i></a></a></li>
+            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><a href="https://www.linkedin.com/company/easym2m-technologies"><i class="fa fa-linkedin"></i></a></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><a href="https://plus.google.com/u/0/b/104477377444188565175/104477377444188565175/"><i class="fa fa-google-plus"></i></a></a></li> 
+			<li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><a href="https://www.youtube.com/user/RANJANTECHIE"><i class="fa fa-youtube"></i></a></a></li>
+          </ul>
+		</div>
+		</div>		
+      </div>
+      <!--div class="row">
+        <div class="col-lg-4 wow fadeInLeft">	
+		 <div class="contact_info">
+                            <div class="detail">
+                                <h4>EasyM2M Technologies</h4>
+                                <p>#314, Startup Innovation center, IIIT-B, Electronic City Phase-1, 
+									Bangalore, India</p>
+                            </div>
+                            <div class="detail">
+                                <h4>call us</h4>
+                                <p>+91 973 996 3333</p>
+                            </div>
+                            <div class="detail">
+                                <h4>Email us</h4>
+                                <p>INFO@EASYM2M.IN</p>
+                            </div> 
+                        </div>
+       		  
+			  
+          
+          <ul class="social_links">
+            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><a href="https://twitter.com/easym2m"><i class="fa fa-twitter"></i></a></a></li>
+            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><a href="https://www.facebook.com/EasyM2M"><i class="fa fa-facebook"></i></a></a></li>
+            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><a href="https://www.linkedin.com/company/easym2m-technologies"><i class="fa fa-linkedin"></i></a></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><a href="https://plus.google.com/u/0/b/104477377444188565175/104477377444188565175/"><i class="fa fa-google-plus"></i></a></a></li> 
+			<li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><a href="https://www.youtube.com/user/RANJANTECHIE"><i class="fa fa-youtube"></i></a></a></li>
+          </ul>
+        </div>
+        <!--div class="col-lg-8 wow fadeInLeft delay-06s">
+          <div class="form" name="commentform" method="post" action="send_form_email.php">
+            <input class="input-text" type="text" name="name" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text" type="text" name="email" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <textarea class="input-text text-area" name="message" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+            <input class="input-btn" name="submit" type="submit" value="send message">
+          </div>
+        </div-->
+      </div-->
+    </section>
+  </div>
+  <div class="container">
+    <div class="footer_bottom"><span>Copyright © 2015,    EasyM2M Technologies, Bangalore, India</a>. </span> </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
