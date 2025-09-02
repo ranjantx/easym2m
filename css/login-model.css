@@ -1,0 +1,30 @@
+.modal-header, .close {
+      background-color: #231835;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color:  #231835;
+  }
+  .login-model-custom{
+  border: none;
+  border-bottom: 1px dotted #c8b7e1;
+  width:90%;
+  padding:4px 0 0 0;
+  font-size:12px;
+  outline: none;
+}
+.modal-login-button {
+      background-color:  #231835;
+      padding: 10px 20px;
+      text-align: center;
+      color: #fff;
+      border-radius: 0px;
+  }
+  .modal-login-button:hover {
+      color: green;
+  }
+  .modal-login-close-button:hover {
+      color: red;
+  }

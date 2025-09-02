@@ -1,0 +1,401 @@
+
+/*===================================================*/
+::-moz-selection { /* Code for Firefox */
+    color: #ff6600;
+    background: #000;
+}
+
+::selection {
+   color: #ff6600;
+    background: #000;
+}
+
+.fixed-index-bg2 {
+    background-image: url("../view/img/aboutus-easym2m-banner.png");/*b3-background.jpg*/
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixed-index-bg1 {
+    background-image: url("../view/img/b6-background.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixed-index-bg3 {
+    background-image: url("../view/img/FIFA-World-Cup-Trophy-Wallpaper-download.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixed-index-bg4 {
+    background-image: url("../view/img/easym2m-solution.png");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixed-index-bg5 {
+    background-image: url("../view/img/b7-background.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixed-index-bg6 {
+    background-image: url("../view/img/b14.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-bg1 {
+    background-image: url("../view/img/b12.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer-links a{
+    text-decoration: blink;
+    color: #ffff4d;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#solution-para p{
+    text-decoration: blink;
+    color: #ffff4d;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#footer-links h3{
+    font-weight: 700;
+}
+.sw1 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.text-area{
+	margin-top: 20px; 
+	text-align: justify; 
+	text-transform: capitalize; 
+	line-height: 20px; 
+	font-weight: 750;
+	color: #000;
+    font-size: 16px;
+}
+.main-iheading{
+	color: #fff;
+	text-transform: uppercase;
+	margin: 10px;
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: .167em;
+    text-align: center;
+    font-weight: 700;
+}
+@media(max-width:320px){
+.main-iheading{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.about-section {
+    min-height: 200% !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.sm-btn{
+    padding: 10px;
+    overflow: visible;
+}
+.sw1 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: absolute;   
+}
+}
+
+@media(max-width:360px){
+   
+
+#whoweare-p{
+    height: 290px;
+    overflow: hidden;
+}
+.about-section {
+    min-height: 150%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.sm-btn{
+    margin-top: 10px;
+    padding: 10px;
+    overflow: visible;
+}
+.sw1 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    
+} 
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.about-section {
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.solution-section {
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.team-img{
+   display:block; 
+   margin-left: auto; 
+   margin-right:auto;
+}
+.team-section {
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+@media(max-width: 360px){
+.team-img{
+    vertical-align: middle;
+}
+.team-section {
+    height: 300%;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+}
+@media(max-width: 768px){
+
+.team-section {
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;  
+}
+}
+@media(max-width: 360px){
+    .solution-section {
+    min-height: 170% !important;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+}
+@media(max-width: 320px){
+    .solution-section {
+    min-height: 240% !important;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+}
+@media(max-width: 768px){
+    .solution-section {
+    min-height: 100% !important;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+}
+.services-section {
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+@media(max-width: 360px){
+    .services-section {
+    min-height: 180% !important;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+}
+@media(max-width: 320px){
+    .services-section {
+    min-height: 240% !important;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+}
+@media(max-width: 768px){
+    .services-section {
+    min-height: 100% !important;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+}
+
+.award-section {
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+@media(max-width: 360px){
+    .award-section {
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}}
+@media(max-width: 768px){
+    .award-section {
+    min-height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}}
+.sections-know-more{
+    color: #fff;
+}
+#team-tabs li a{
+    color:  #000;
+    font-size: 16px;
+}
+#team-tabs li a:hover{
+    color: #000;
+    background-color: #ff6600;
+}
+/*subscribe form css starts form here*/
+button{
+        line-height: 1.8;
+        margin-bottom: 0;
+        padding: 10px 48px;
+        color: #eee;
+        border-color: #00a0df;
+    }
+    .footer-btn{
+        font-weight: 700;
+        letter-spacing: .167em;
+        cursor: pointer;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+        background-color: transparent;
+        border-color: 1px solid #000;
+        display: inline-block;
+        -webkit-appearance: none;
+        appearance: none;
+        transition: background-color 300ms;
+    }
+    
+    .third-eye-solution-level-text{
+        line-height: 1.8;
+        margin-bottom: 10px;
+        padding: 10px 25px;
+        color: #fff;
+        border-color: #fff;
+        font-weight: 200;
+        letter-spacing: .107em;
+        cursor: pointer;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+        background-color: transparent;
+        border: 1px solid;
+        display: inline-block;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+    @media(max-width:360px){
+        .third-eye-solution-level-text{
+        line-height: 1.1;
+        margin-bottom: 5px;
+        padding: 1px 1px !important;
+        color: #fff;
+        border-color: #fff;
+        font-weight: 200;
+        cursor: pointer;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        font-size: 10px;
+        text-transform: uppercase;
+        background-color: transparent;
+        border: 1px solid;
+        display: inline-block;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+    }
+    .third-eye-solution-description{
+    margin-top: 15px; 
+    text-align: justify; 
+    text-transform: capitalize; 
+    line-height: 20px; 
+    font-weight: 500; 
+    color: #fff;
+    word-wrap: break-word;
+    }
+    .subscribe-row{
+        color: #666; 
+        text-align: center;
+        padding: 24px 0;
+    }
+    .subscribe-form{
+        display: block; 
+        color: #666; 
+        text-align: center;
+    }
+    .subs-level-text{
+        color:#666; 
+        text-align:center; 
+        display: inline-block; 
+        text-transform: uppercase; 
+        letter-spacing: .167em;
+    }
+    .subs-input{
+        border:1px solid #d8d8d8; 
+        background: #f6f6f6; 
+        height:43px; 
+        padding-left:12px; 
+        padding-right:12px; 
+        width: 300px;
+    }
+@media(max-width:360px){
+     .subs-input{
+        width: 180px;
+        margin: 10px;
+    }
+   
+}
+.borderLeft {
+    border-left: 1px solid #DADADA;
+}
